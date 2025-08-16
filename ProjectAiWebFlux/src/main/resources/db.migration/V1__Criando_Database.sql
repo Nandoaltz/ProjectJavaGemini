@@ -1,0 +1,2 @@
+ALTER TABLE movietest
+ADD COLUMN movieType VARCHAR(100);
