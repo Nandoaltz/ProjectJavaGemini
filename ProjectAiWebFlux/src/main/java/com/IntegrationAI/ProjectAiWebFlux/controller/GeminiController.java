@@ -1,6 +1,4 @@
 package com.IntegrationAI.ProjectAiWebFlux.controller;
-import com.IntegrationAI.ProjectAiWebFlux.response.Candidates;
-import com.IntegrationAI.ProjectAiWebFlux.response.ResponseContent;
 import com.IntegrationAI.ProjectAiWebFlux.service.GeminiService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

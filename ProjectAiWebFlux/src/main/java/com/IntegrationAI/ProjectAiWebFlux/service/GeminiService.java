@@ -24,7 +24,7 @@ public class GeminiService {
     }
 
     public Mono<String> resposta() {
-        TextApi prompt = new TextApi("Prompt de teste");
+        TextApi prompt = new TextApi("Conte uma piada de 5 palavras");
         Parts parts = new Parts(List.of(prompt));
         Contents contents = new Contents(List.of(parts));
 
